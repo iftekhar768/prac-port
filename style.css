@@ -1,0 +1,69 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.ultra{
+    color: purple;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    
+}
+.flexible-container{
+    display: flex;
+}
+.link-button{
+    color: whitesmoke;
+    text-decoration: none;
+    background-image: linear-gradient(blue, violet);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.purple-blue{
+    color: navy;
+}
+.top-banner{
+    background-image: url(purple-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.dream-big{
+    background-image: url(blue-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right 70px; 
+}
+.author{
+    color: blue;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 10px grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(neon-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position:left 150px;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, violet,red);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, pink,blue) ;
+    border-image-slice: 1;
+}
+footer{
+    color: grey;
+    text-align: center;
+    margin-top: 100px;
+}
